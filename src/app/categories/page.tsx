@@ -47,10 +47,8 @@ export default function CategoriesPage() {
         console.log('🔍 [CATEGORIES] Response from API:', categoriesResponse);
         
         if (categoriesResponse.data) {
-          // L'API backend retourne { data: categories, message: '...' }
-          // Notre API client retourne { data: { data: categories, message: '...' } }
-          const backendData = categoriesResponse.data.data || categoriesResponse.data;
-          const categoriesList = Array.isArray(backendData) ? backendData : [];
+          // categoriesResponse.data est déjà un Category[]
+          const categoriesList = Array.isArray(categoriesResponse.data) ? categoriesResponse.data : [];
           console.log('📂 [CATEGORIES] Categories list:', categoriesList);
           
           // Charger les produits pour compter par catégorie
