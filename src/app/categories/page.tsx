@@ -54,9 +54,8 @@ export default function CategoriesPage() {
           // Charger les produits pour compter par catégorie
           const productsResponse = await apiClient.getProducts();
           if (productsResponse.data) {
-            // Même logique pour les produits
-            const backendProductsData = productsResponse.data.data || productsResponse.data;
-            const products = Array.isArray(backendProductsData) ? backendProductsData : [];
+            // productsResponse.data est déjà un Product[]
+            const products = Array.isArray(productsResponse.data) ? productsResponse.data : [];
             
             // Enrichir les catégories avec le nombre de produits et la configuration
             const enrichedCategories = categoriesList.map(category => {
