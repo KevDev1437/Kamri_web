@@ -42,10 +42,8 @@ export default function CategoryProductsPage() {
         const categoriesResponse = await apiClient.getCategories();
         
         if (categoriesResponse.data) {
-          // L'API backend retourne { data: categories, message: '...' }
-          // Notre API client retourne { data: { data: categories, message: '...' } }
-          const backendData = categoriesResponse.data.data || categoriesResponse.data;
-          const categories = Array.isArray(backendData) ? backendData : [];
+          // categoriesResponse.data est déjà un Category[]
+          const categories = Array.isArray(categoriesResponse.data) ? categoriesResponse.data : [];
           
           // Trouver la catégorie par slug
           const foundCategory = categories.find(cat => 
@@ -58,9 +56,8 @@ export default function CategoryProductsPage() {
             // Charger tous les produits
             const productsResponse = await apiClient.getProducts();
             if (productsResponse.data) {
-              // Même logique pour les produits
-              const backendProductsData = productsResponse.data.data || productsResponse.data;
-              const products = Array.isArray(backendProductsData) ? backendProductsData : [];
+              // productsResponse.data est déjà un Product[]
+              const products = Array.isArray(productsResponse.data) ? productsResponse.data : [];
               // Filtrer les produits de cette catégorie
               const categoryProducts = products.filter((product) => 
                 product.category?.name === foundCategory.name
