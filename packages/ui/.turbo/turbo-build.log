@@ -1,0 +1,58 @@
+
+> @kamri/ui@0.1.0 build E:\Projet Pro\Kamri_dashboard\KAMRI_FULL\packages\ui
+> tsc
+
+src/components/Button.tsx(1,19): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/components/Button.tsx(13,3): error TS7031: Binding element 'children' implicitly has an 'any' type.
+src/components/Button.tsx(30,37): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ primary: string; secondary: string; outline: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ primary: string; secondary: string; outline: string; }'.
+src/components/Button.tsx(30,64): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ sm: string; md: string; lg: string; }'.
+  No index signature with a parameter of type 'string' was found on type '{ sm: string; md: string; lg: string; }'.
+src/components/Button.tsx(33,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Button.tsx(35,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(1,19): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/components/Card.tsx(10,3): error TS7031: Binding element 'children' implicitly has an 'any' type.
+src/components/Card.tsx(12,3): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/components/Card.tsx(15,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(17,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(18,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(18,70): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(19,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(21,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(23,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Card.tsx(24,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(1,19): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/components/Input.tsx(9,3): error TS7031: Binding element 'label' implicitly has an 'any' type.
+src/components/Input.tsx(10,3): error TS7031: Binding element 'error' implicitly has an 'any' type.
+src/components/Input.tsx(15,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(17,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(19,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(21,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(28,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(28,57): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Input.tsx(30,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(1,19): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+src/components/Modal.tsx(11,3): error TS7031: Binding element 'isOpen' implicitly has an 'any' type.
+src/components/Modal.tsx(12,3): error TS7031: Binding element 'onClose' implicitly has an 'any' type.
+src/components/Modal.tsx(13,3): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/components/Modal.tsx(14,3): error TS7031: Binding element 'children' implicitly has an 'any' type.
+src/components/Modal.tsx(19,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(20,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(21,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(22,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(22,68): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(23,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(25,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(25,85): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(27,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(29,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(30,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(32,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(35,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(37,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(38,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(39,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+src/components/Modal.tsx(40,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+ ELIFECYCLE  Command failed with exit code 1.
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
