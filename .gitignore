@@ -50,6 +50,3 @@ packages/*/node_modules/
 packages/*/dist/
 packages/*/.next/
 packages/*/tsconfig.tsbuildinfo
-
-"node_modules/" 
-"packages/*/node_modules/" 
