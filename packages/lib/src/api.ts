@@ -23,7 +23,7 @@ export class ApiClient {
       throw new Error(`API Error: ${response.status} ${response.statusText}`)
     }
 
-    return response.json()
+    return response.json() as Promise<T>
   }
 
   // Products
