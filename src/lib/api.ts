@@ -20,7 +20,7 @@ export interface Product {
     name: string;
   };
   status: string;
-  badge?: string;
+  badge?: string | null;
   stock: number;
   sales: number;
   description?: string;

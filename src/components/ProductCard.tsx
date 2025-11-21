@@ -68,7 +68,7 @@ interface Product {
   } | null;
   rating?: number;
   reviews?: number;
-  badge: string | null;
+  badge?: string | null;
   brand?: string;
   supplier?: {
     name: string;
