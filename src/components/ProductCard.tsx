@@ -63,7 +63,7 @@ interface Product {
   originalPrice?: number | null;
   image?: string | null;
   category?: {
-    id: string;
+    id?: string;
     name: string;
   } | null;
   rating?: number;

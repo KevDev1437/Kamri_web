@@ -13,8 +13,9 @@ export interface Product {
   originalPrice?: number | null;
   image?: string | null;
   category?: {
+    id?: string;
     name: string;
-  };
+  } | null;
   supplier?: {
     name: string;
   };
