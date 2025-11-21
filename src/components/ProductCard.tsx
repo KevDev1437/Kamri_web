@@ -60,8 +60,8 @@ interface Product {
   id: string;
   name: string;
   price: number;
-  originalPrice: number | null;
-  image: string | null;
+  originalPrice?: number | null;
+  image?: string | null;
   category?: {
     id: string;
     name: string;
